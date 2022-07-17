@@ -55,4 +55,7 @@ setInterval(() => {
   // apply the next position of square; either left/right or top/bottom
   square.style.left = `${nextLeftPosition}px`;
   square.style.top = `${nextTopPosition}px`;
+
+  //if we want to animate the square smoothly, transition attribute can be an option
+  //   square.style.transition = "0.3s";
 }, 1000);
