@@ -1,0 +1,20 @@
+html,
+body {
+  margin: 0 auto;
+  overflow: hidden;
+  background-color: white;
+}
+
+.square-wrapper {
+  width: 100vw;
+  height: 100vh;
+}
+
+.square {
+  width: 100px;
+  height: 100px;
+  background-color: blue;
+  position: relative;
+  left: 0px;
+  top: 50px;
+}
